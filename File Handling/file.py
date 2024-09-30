@@ -143,36 +143,108 @@
 # file1 = open("myfile.txt", "r")
 # print("Output of Readlines after writing")
 # print(file1.read())
+# print()# list1 = [1,2,3,4,5,2,9]
+# # file1.close()44
+# list1 = [1,2,3,4,5,2,9]
+# # Program to show various ways to read data from a file.
+
+# # Creating a file
+# file1 = open("myfile.txt", "w")
+# L = ["This is Delhi \n", "This is Paris \n", "This is London \n"]
+
+# # Writing data to a file
+# file1.write("Hello \n")
+# file1.writelines(L)
+# file1.close()  # to change file access modes
+
+# file1 = open("myfile.txt", "r+")
+
+# print("Output of Read function is ")
+# print(file1.read())
 # print()
-# file1.close()44
 
-# Program to show various ways to read data from a file.
+# # seek(n) takes the file handle to the nth byte from the beginning.
+# file1.seek(0)
 
-# Creating a file
-file1 = open("myfile.txt", "w")
-L = ["This is Delhi \n", "This is Paris \n", "This is London \n"]
-
-# Writing data to a file
-file1.write("Hello \n")
-file1.writelines(L)
-file1.close()  # to change file access modes
-
-file1 = open("myfile.txt", "r+")
-
-print("Output of Read function is ")
-print(file1.read())
-print()
-
-# seek(n) takes the file handle to the nth byte from the beginning.
-file1.seek(0)
-
-print("Output of Readline function is ")
-print(file1.readline())
-print()
+# print("Output of Readline function is ")
+# print(file1.readline())
+# print()
 
 
-# readlines function
-print("Output of Readlines function is ")
-print(file1.readlines())
-print()
-file1.close()
+# # readlines function
+# print("Output of Readlines function is ")
+# print(file1.readlines())
+# print()
+# file1.close()
+
+
+
+# r = open("file.txt")
+# # Read the content of the file
+# content = r.read()
+# # Close the file
+# r.close()
+# print(r.read())
+# print(content)
+
+
+# # a = open("file.txt", "a")
+
+
+# w = open("file.txt" , "w")
+
+# # Write some content to the file
+# w.write("Hello, this is a test file.\n")
+
+# # Close the file
+
+# w.close()
+
+
+# r = open("file.txt","r")
+
+# # Read the content of the file
+
+# content = r.read()
+
+# # Close the file
+
+# r.close()
+# print(content)
+
+w = open("file2.txt","")
+
+# Write some content to the file
+
+w.write("This is new file 1.\n")
+w.write("This is new file 2.\n")
+w.write("This is new file 3.\n")
+w.write("This is new file 4.\n")
+w.write("This is new file 5.\n")
+w.write("This is new file 6.\n")
+L = ["uzar\t","ri"]
+# w.write(L)
+
+
+#Close the file
+w.close()
+
+r = open("file2.txt" , "r")
+
+# Read the content of the file
+content = r.read()
+r.seek(0)
+
+content1 = r.readlines()
+# content = r.readline()
+
+# Close the fil
+
+r.close()
+# ls = content1
+# first = ls[0]
+# print(first)
+print(content)
+print(content1)
+# print(content)
+
