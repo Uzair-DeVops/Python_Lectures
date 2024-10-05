@@ -8,6 +8,8 @@
 ### In Python, a dictionary can be created by placing a sequence of elements within curly {} braces, separated by a ‘comma’. The dictionary holds pairs of values, one being the Key and the other corresponding pair element being its Key:value. Values in a dictionary can be of any data type and can be duplicated, whereas keys can’t be repeated and must be immutable.
 
 
+
+
 ```python
 Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 print(Dict)
