@@ -108,5 +108,28 @@
 # print(my_dict)  # Output: {'name': 'Alice', 'age': 25, 'salary': 50000}
 
 
-d = {'coding': 'good', 'thinking': 'better'}
-print(d['cod'])
+# d = {'coding': 'good', 'thinking': 'better'}
+# print(d['cod'])
+
+# Python3 code to demonstrate 
+# to initialize dictionary with list 
+# using from keys()
+
+# # using from keys() to construct
+# new_dict = dict.fromkeys(range(4),)
+	
+# # printing result
+# print ("New dictionary with empty lists as keys : " + str(new_dict))
+# seq = ('a', 'b', 'c')
+# print(dict.fromkeys(seq, None))
+# seq = ('title', 'author', 'status')
+# values = {}
+
+# for key in seq:
+#     user_input = input(f"Enter value for {key}: ")
+#     values[key] = user_input
+
+# print(values)
+# value = {}
+# value["a"] = "uzair"
+# print(value)

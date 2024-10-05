@@ -121,7 +121,46 @@
 # Tuples in a Loop
 
 
-list1 : list = [1,2,3,4,5]
-print(list1)
-tuple1 : tuple = tuple(list1)
-print(tuple1)
+# list1 : list = [1,2,3,4,5]
+# print(list1)
+# tuple1 : tuple = tuple(list1)
+# print(tuple1)
+
+
+# li = []
+# a = (2,3,4)
+# b = (5,6,7)
+# tu = (a + b)
+# print(tu)
+# print(tu.index(2))
+
+# tuple1 = (0, 1, 2, 3)
+# tuple2 = ('python', 'uzair')
+ 
+# tuple3 = (tuple1, tuple2)
+# print(tuple3[0])
+
+
+# tuple3 = (1,) * 3
+# print(tuple3)
+
+# tu = (1,2,3,4,5,6,7)
+# # 
+# for x in tu:
+#     print(x)
+# def input_():
+#     x = input( " number : ").split()
+#     return x
+# y = input_()
+# print(int(y))
+ 
+
+# def square_list(x,y):
+#     for items in x:
+#         h = items*2
+#         y.appemd
+#     print(x)
+
+# li2 = []
+# li = [1,2,3,4]
+# square_list(li,li2)

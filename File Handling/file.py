@@ -212,43 +212,128 @@
 # r.close()
 # print(content)
 
-w = open("file2.txt","")
+# w = open("file4.xls","w")
 
-# Write some content to the file
+# # Write some content to the file
 
-w.write("This is new file 1.\n")
-w.write("This is new file 2.\n")
-w.write("This is new file 3.\n")
-w.write("This is new file 4.\n")
-w.write("This is new file 5.\n")
-w.write("This is new file 6.\n")
-L = ["uzar\t","ri"]
-# w.write(L)
+# w.write("This is new file 1.\n")
+# w.write("This is new file 2.\n")
+# w.write("This is new file 3.\n")
+# w.write("This is new file 4.\n")
+# w.write("This is new file 5.\n")
+# w.write("This is new file 6.\n")
+# L = ["uzar\t","ri"]
+# # w.write(L)
 
 
-#Close the file
-w.close()
+# #Close the file
+# w.close()
 
-r = open("file2.txt" , "r")
+# r = open("file4.xls" , "r")
 
-# Read the content of the file
-content = r.read()
-r.seek(0)
+# # Read the content of the file
+# content = r.read()
+# r.seek(0)
 
-content1 = r.readlines()
-# content = r.readline()
+# content1 = r.readlines()
+# # content = r.readline()
 
-# Close the fil
+# # Close the fil
 
-r.close()
-# ls = content1
-# first = ls[0]
-# print(first)
-print(content)
-print(content1)
+# r.close()
+# # ls = content1
+# # first = ls[0]
+# # print(first)
+# print(content)
+# print(content1)
 
 
 
 
 # print(content)
 
+
+# r = open("file.txt" ,"r")
+# # Read the content of the file
+# content = r.read()
+# r.close()
+# print(content)
+
+# w = open("file.txt" , "w")
+# # Write some content to the file
+# w.write("This is new file 1.\n")
+# w.write("This is new file 1.\n")
+# w.close
+
+# r = open("file.txt" ,"r")
+# # Read the content of the file
+# # r.seek(0)
+# print(r.read())
+# r.close()
+# # print(content)
+
+# w= open("file2.txt" , "w")
+# # Write some content to the file
+# w.write("This is new file 2.\n")
+# w.write("This is new file 3.\n")
+
+# w.close()
+
+# r = open("file2.txt" , "r")
+# # Read the content of the file
+# # r.seek(1)
+# content = r.readline(10)
+# r.close()
+# print(content)  # prints: Hello, World!
+
+
+# a = open("file.txt" , "a+")
+# # Write some content to the file
+# # a.seek(0)
+# # a.write("uzair")
+# a.seek(0)
+# con = a.read()
+# a.close()
+# print(con)
+# r = open("file.txt" , "r")
+# # Read the content of the file
+# content = r.read()
+# r.close()
+# print(content)
+
+# r= open("file.txt" , "")
+# with open("file4.txt" , "r") as w:
+#     w.write("This is new file 2.\n")
+#     w.write("This is new file 3.\n")
+#     w.seek(0)
+#     content = w.read()
+# print(content)  
+
+# with open("file.bin" ,"wb+") as rb:
+#     rb.write(b"uzair")
+#     rb.seek(0)
+#     content = rb.read()
+#     bn = int(content , 2 )
+# print(content)   
+# print(bn)
+
+with open("file.bin", "wb+") as rb:
+    rb.write(b"uzair")  # Write byte string "uzair" to the file
+    rb.seek(0)  # Move the pointer back to the start of the file
+    content = rb.read()  # Read the content from the file
+
+# Convert each byte to binary
+binary_representation = ''.join(format(byte, '08b') for byte in content)
+
+print("Content as text:", content.decode())  # Decoding to show the text representation
+print("Content in binary:", binary_representation)  
+
+binary_string = "0111010101111010011000010110100101110010"
+
+# Split the binary string into chunks of 8 bits
+binary_values = [binary_string[i:i+8] for i in range(0, len(binary_string), 8)]
+
+# Convert each binary value to its corresponding ASCII character
+ascii_string = ''.join([chr(int(bv, 2)) for bv in binary_values])
+
+print(ascii_string)
