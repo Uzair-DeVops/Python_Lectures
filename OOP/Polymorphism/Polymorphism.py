@@ -41,3 +41,35 @@
 #     country.capital()
 #     country.language()
 #     country.type()
+
+class Pol:
+    def add(self,*a):
+        return sum(a)
+
+    
+
+over = Pol()
+print(over.add(1))
+
+# import random as  np
+# vr = np.
+
+
+# print(list.__base__)
+
+
+
+
+# class Person1:
+#     def running(self):
+#         print("Person1 is Running")
+#     def running(self):
+#         print("Person2 is Running")
+#     def running(self):
+#         print("Person3 is Running")
+
+
+
+# p1 = Person1()
+# p1.running()
+

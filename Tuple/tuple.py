@@ -163,4 +163,12 @@
 
 # li2 = []
 # li = [1,2,3,4]
-# square_list(li,li2)
+# # square_list(li,li2)
+# a = 5
+# b = 3
+
+# tem = a
+# a = b
+# b = tem
+import random
+num = random.randint
