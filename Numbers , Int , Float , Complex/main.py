@@ -92,3 +92,11 @@
 # print(type(num))
 
 
+
+# number = 5 + 2j
+# print(type(number))
+
+
+number = True
+string = str(number)
+print(type(string))

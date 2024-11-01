@@ -69,40 +69,53 @@
 # print(name[::])
 
 # immutable  : anything which is unchangeable
-# mutable  : anything which is changeable
+# # mutable  : anything which is changeable
 
 
-# String function 
-# 1. lower()
-# 2. upper()
-# 3. title()
-# 4. capitalize()
+# # String function 
+# # 1. lower()
+# # 2. upper()
+# # 3. title()
+# # 4. capitalize()
 
 
-# name = "uzaira"
-# Second_str = "" .join("uzair")
-# # print(name)
-# print(Second_str)
+# # name = "uzaira"
+# # Second_str = "" .join("uzair")
+# # # print(name)
+# # print(Second_str)
 
-# print("uzair","yasin" , sep="-") 
-# print("Yasin ")
+# # print("uzair","yasin" , sep="-") 
+# # print("Yasin ")
 
-# print("Hello", "World")
-# num = False
-# print(type(num))
+# # print("Hello", "World")
+# # num = False
+# # print(type(num))
 
-# print("uzair" , end= "-")
-# print("yasin") 
-# print("Yasin "
+# # print("uzair" , end= "-")
+# # print("yasin") 
+# # print("Yasin "
 
-# name = " uzair"
-num1 = 20 
-num = 55
-# edu = "Bs"
-print(num <= num1)
+# # name = " uzair"
+# num1 = 20 
+# num = 55
+# # edu = "Bs"
+# print(num <= num1)
 
-# print( "hello my name is " , name , "and my age is" ,age , "and my edu is " , edu  )
-# print(f"hell my name is{name}and my age {age} and edu is {edu}")
+# # print( "hello my name is " , name , "and my age is" ,age , "and my edu is " , edu  )
+# # print(f"hell my name is{name}and my age {age} and edu is {edu}")
 
 
 
+# a = 5 
+# b = 10 
+
+# a = 5
+# print(a)
+# print(a != b)
+
+
+
+
+age  = int(input("write your age: "))
+print("The age is " , age)
+print(type(age))
