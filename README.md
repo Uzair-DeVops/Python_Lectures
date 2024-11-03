@@ -1,1 +1,1 @@
-"# Python_Lectures By <b>Muhammad IUzair</b>" 
+"# Python_Lectures By <i><b>Muhammad Uzair</b></i>" 
