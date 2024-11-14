@@ -351,16 +351,16 @@ dict = {"a" : "Uzair", "b" : 20 , "c" : "bscs"}
 
 
 # Error Handling
-# try:
-#     age = int(input("write your age : "))
-#     print(age)
-# except Exception as e:
-#     print("error occurred")
-# else:
-#     print("No error occurred")
-# finally:
-#     print("done")
+try:
+    age = int(input("write your age : "))
+    print(age)
+except Exception as e:
+    print("error occurred")
+else:
+    print("No error occurred")
+finally:
+    print("done")
 
-# print("uzair")
+print("uzair")
 
 

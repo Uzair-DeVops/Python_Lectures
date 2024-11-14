@@ -170,5 +170,47 @@
 # tem = a
 # a = b
 # b = tem
-import random
-num = random.randint
+# import random
+# num = random.randint
+
+
+# tu = (1,"yourname" ,2,"edu",3,"rollnum")
+
+
+
+# li=  [1,2,10,13,2,1,6,9,10]
+# user_input = int(input("write which highest number you want : "))
+
+
+
+
+
+
+
+
+# tu = (1,2,3,4,"uzair" , 5.6)
+
+# tu.
+
+
+# tu1 =  [1]
+# tu2 =  [5,6,7,8]
+# tu3 = [tu1,tu2]
+
+# # print(tu3)
+# tu = (1,2,3,4,"uzair" , 5.6)
+
+# tu.
+
+
+
+
+name = input('Enter name:')
+edu = input('education:')
+roll_no = input('rollno:')
+tu = (name, edu, roll_no)
+print(tu)
+li = list(tu)
+print(li)
+li.insert(0, 'Ali')
+print(li)

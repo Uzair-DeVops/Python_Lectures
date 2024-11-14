@@ -1,339 +1,423 @@
-# # f = open("file.txt" , "r+")
-
-# # # Read the content of the file
-
-# # content = f.read()
-# # print(content)
-# # # Close the file
-
-# # f.close()
-
-# # w=open("file2.txt" , "w")
-# # w.write("Hello , how are you ? ")
-# # w.write("\nHello , how are you 2? ")
-# # # Close the file
-
-# # w.close()
-
-# # r=open("file2.txt" , "r")
-
-# # # Read the content of the file  
-
-# # content = r.read()
-# # print(content)
-
-# # # Close the file
-# # # r.close()
-# # w  = open("file.txt" , "w")
-
-# # # Write some content to the file
-
-# # w.write("Hello , how are you ? ")
-# # w.write("\nHello , how are you 2? ")
-
-# # # Close the file
-
-# # w.close()
-
-# # r = open("file.txt" , "r")
-
-# # # Read the content of the file
-
-# # content = r.read()
-# # print(content)
-
-# # # Close the file
-
-# # r.close()
-# # a = open("file.txt" , "a")
-
-# # # Write some content to the file
-
-# # a.write("\nHello , how are you 3? ")
-
-# # # Close the file
-
-# # a.close()
-
-# # r = open("file.txt" , "r")
-
-# # # Read the content of the file
-
-# # content = r.read()
-# # content.split()
-
-# # # Close the file
-
-# # r.close()
-
-# # print(content)
-
-# # r = open("file2.txt" , "r")
+# # # f = open("file.txt" , "r+")
 
 # # # # Read the content of the file
-# # con = r.read()
-# # words = con.split()
-# # # print(words)
 
-# wb= open("binary.bin" , "wb")
+# # # content = f.read()
+# # # print(content)
+# # # # Close the file
 
-# # # Write some binary data to the file
-# wb.write(b'1,2')
-# wb.close()
-# # read
-# rb = open("binary.bin" , "rb")
-# # Read the content of the file
+# # # f.close()
 
-# content = rb.read()
+# # # w=open("file2.txt" , "w")
+# # # w.write("Hello , how are you ? ")
+# # # w.write("\nHello , how are you 2? ")
+# # # # Close the file
 
-# print(content)
+# # # w.close()
 
-# # Close the file
+# # # r=open("file2.txt" , "r")
 
-# rb.close()
-# # Writing to a binary file
-# # with open("example.bin", "wb") as file:
-# #     file.write(b'Binary data to write')  # Write binary data
+# # # # Read the content of the file  
 
-# # # Reading from the same binary file
-# # with open("example.bin", "rb") as file:
-# #     data = file.read()  # Read the content
-# #     print(data)
+# # # content = r.read()
+# # # print(content)
 
+# # # # Close the file
+# # # # r.close()
+# # # w  = open("file.txt" , "w")
 
-# file1 = open('myfile.txt', 'w')
-# L = ["This is Delhi \n", "This is Paris \n", "This is London \n"]
-# s = "Hello\n"
+# # # # Write some content to the file
 
-# # Writing a string to file
-# file1.write(s)
+# # # w.write("Hello , how are you ? ")
+# # # w.write("\nHello , how are you 2? ")
 
-# # Writing multiple strings at a time
-# file1.writelines(L)
+# # # # Close the file
 
-# # Closing file
-# file1.close()
+# # # w.close()
 
-# # Checking if the data is written to file or not
-# file1 = open('myfile.txt', 'r')
-# print(file1.read())
-# file1.close()
+# # # r = open("file.txt" , "r")
 
-# file1 = open("myfile.txt", "w")
-# L = ["This is Delhi \n", "This is Paris \n", "This is London"]
-# file1.writelines(L)
-# file1.close()
+# # # # Read the content of the file
 
-# # Append-adds at last
-# file1 = open("myfile.txt", "a")  # append mode
-# file1.write("Today \n")
-# file1.close()
+# # # content = r.read()
+# # # print(content)
 
-# file1 = open("myfile.txt", "r")
-# print("Output of Readlines after appending")
-# print(file1.read())
-# print()
-# file1.close()
+# # # # Close the file
 
-# # Write overwrites
-# file1 = open("myfile.txt", "w")  # write mode
-# file1.write("Tomorrow \n")
-# file1.close()
+# # # r.close()
+# # # a = open("file.txt" , "a")
 
-# file1 = open("myfile.txt", "r")
-# print("Output of Readlines after writing")
-# print(file1.read())
-# print()# list1 = [1,2,3,4,5,2,9]
-# # file1.close()44
-# list1 = [1,2,3,4,5,2,9]
-# # Program to show various ways to read data from a file.
+# # # # Write some content to the file
 
-# # Creating a file
-# file1 = open("myfile.txt", "w")
-# L = ["This is Delhi \n", "This is Paris \n", "This is London \n"]
+# # # a.write("\nHello , how are you 3? ")
 
-# # Writing data to a file
-# file1.write("Hello \n")
-# file1.writelines(L)
-# file1.close()  # to change file access modes
+# # # # Close the file
 
-# file1 = open("myfile.txt", "r+")
+# # # a.close()
 
-# print("Output of Read function is ")
-# print(file1.read())
-# print()
+# # # r = open("file.txt" , "r")
 
-# # seek(n) takes the file handle to the nth byte from the beginning.
-# file1.seek(0)
+# # # # Read the content of the file
 
-# print("Output of Readline function is ")
-# print(file1.readline())
-# print()
+# # # content = r.read()
+# # # content.split()
 
+# # # # Close the file
 
-# # readlines function
-# print("Output of Readlines function is ")
-# print(file1.readlines())
-# print()
-# file1.close()
+# # # r.close()
 
+# # # print(content)
 
+# # # r = open("file2.txt" , "r")
 
-# r = open("file.txt")
-# # Read the content of the file
-# content = r.read()
-# # Close the file
-# r.close()
-# print(r.read())
-# print(content)
+# # # # # Read the content of the file
+# # # con = r.read()
+# # # words = con.split()
+# # # # print(words)
 
+# # wb= open("binary.bin" , "wb")
 
-# # a = open("file.txt", "a")
+# # # # Write some binary data to the file
+# # wb.write(b'1,2')
+# # wb.close()
+# # # read
+# # rb = open("binary.bin" , "rb")
+# # # Read the content of the file
 
+# # content = rb.read()
 
-# w = open("file.txt" , "w")
-
-# # Write some content to the file
-# w.write("Hello, this is a test file.\n")
-
-# # Close the file
-
-# w.close()
-
-
-# r = open("file.txt","r")
-
-# # Read the content of the file
-
-# content = r.read()
-
-# # Close the file
-
-# r.close()
-# print(content)
-
-# w = open("file4.xls","w")
-
-# # Write some content to the file
-
-# w.write("This is new file 1.\n")
-# w.write("This is new file 2.\n")
-# w.write("This is new file 3.\n")
-# w.write("This is new file 4.\n")
-# w.write("This is new file 5.\n")
-# w.write("This is new file 6.\n")
-# L = ["uzar\t","ri"]
-# # w.write(L)
-
-
-# #Close the file
-# w.close()
-
-# r = open("file4.xls" , "r")
-
-# # Read the content of the file
-# content = r.read()
-# r.seek(0)
-
-# content1 = r.readlines()
-# # content = r.readline()
-
-# # Close the fil
-
-# r.close()
-# # ls = content1
-# # first = ls[0]
-# # print(first)
-# print(content)
-# print(content1)
-
-
-
-
-# print(content)
-
-
-# r = open("file.txt" ,"r")
-# # Read the content of the file
-# content = r.read()
-# r.close()
-# print(content)
-
-# w = open("file.txt" , "w")
-# # Write some content to the file
-# w.write("This is new file 1.\n")
-# w.write("This is new file 1.\n")
-# w.close
-
-# r = open("file.txt" ,"r")
-# # Read the content of the file
-# # r.seek(0)
-# print(r.read())
-# r.close()
 # # print(content)
 
-# w= open("file2.txt" , "w")
-# # Write some content to the file
-# w.write("This is new file 2.\n")
-# w.write("This is new file 3.\n")
+# # # Close the file
+
+# # rb.close()
+# # # Writing to a binary file
+# # # with open("example.bin", "wb") as file:
+# # #     file.write(b'Binary data to write')  # Write binary data
+
+# # # # Reading from the same binary file
+# # # with open("example.bin", "rb") as file:
+# # #     data = file.read()  # Read the content
+# # #     print(data)
+
+
+# # file1 = open('myfile.txt', 'w')
+# # L = ["This is Delhi \n", "This is Paris \n", "This is London \n"]
+# # s = "Hello\n"
+
+# # # Writing a string to file
+# # file1.write(s)
+
+# # # Writing multiple strings at a time
+# # file1.writelines(L)
+
+# # # Closing file
+# # file1.close()
+
+# # # Checking if the data is written to file or not
+# # file1 = open('myfile.txt', 'r')
+# # print(file1.read())
+# # file1.close()
+
+# # file1 = open("myfile.txt", "w")
+# # L = ["This is Delhi \n", "This is Paris \n", "This is London"]
+# # file1.writelines(L)
+# # file1.close()
+
+# # # Append-adds at last
+# # file1 = open("myfile.txt", "a")  # append mode
+# # file1.write("Today \n")
+# # file1.close()
+
+# # file1 = open("myfile.txt", "r")
+# # print("Output of Readlines after appending")
+# # print(file1.read())
+# # print()
+# # file1.close()
+
+# # # Write overwrites
+# # file1 = open("myfile.txt", "w")  # write mode
+# # file1.write("Tomorrow \n")
+# # file1.close()
+
+# # file1 = open("myfile.txt", "r")
+# # print("Output of Readlines after writing")
+# # print(file1.read())
+# # print()# list1 = [1,2,3,4,5,2,9]
+# # # file1.close()44
+# # list1 = [1,2,3,4,5,2,9]
+# # # Program to show various ways to read data from a file.
+
+# # # Creating a file
+# # file1 = open("myfile.txt", "w")
+# # L = ["This is Delhi \n", "This is Paris \n", "This is London \n"]
+
+# # # Writing data to a file
+# # file1.write("Hello \n")
+# # file1.writelines(L)
+# # file1.close()  # to change file access modes
+
+# # file1 = open("myfile.txt", "r+")
+
+# # print("Output of Read function is ")
+# # print(file1.read())
+# # print()
+
+# # # seek(n) takes the file handle to the nth byte from the beginning.
+# # file1.seek(0)
+
+# # print("Output of Readline function is ")
+# # print(file1.readline())
+# # print()
+
+
+# # # readlines function
+# # print("Output of Readlines function is ")
+# # print(file1.readlines())
+# # print()
+# # file1.close()
+
+
+
+# # r = open("file.txt")
+# # # Read the content of the file
+# # content = r.read()
+# # # Close the file
+# # r.close()
+# # print(r.read())
+# # print(content)
+
+
+# # # a = open("file.txt", "a")
+
+
+# # w = open("file.txt" , "w")
+
+# # # Write some content to the file
+# # w.write("Hello, this is a test file.\n")
+
+# # # Close the file
+
+# # w.close()
+
+
+# # r = open("file.txt","r")
+
+# # # Read the content of the file
+
+# # content = r.read()
+
+# # # Close the file
+
+# # r.close()
+# # print(content)
+
+# # w = open("file4.xls","w")
+
+# # # Write some content to the file
+
+# # w.write("This is new file 1.\n")
+# # w.write("This is new file 2.\n")
+# # w.write("This is new file 3.\n")
+# # w.write("This is new file 4.\n")
+# # w.write("This is new file 5.\n")
+# # w.write("This is new file 6.\n")
+# # L = ["uzar\t","ri"]
+# # # w.write(L)
+
+
+# # #Close the file
+# # w.close()
+
+# # r = open("file4.xls" , "r")
+
+# # # Read the content of the file
+# # content = r.read()
+# # r.seek(0)
+
+# # content1 = r.readlines()
+# # # content = r.readline()
+
+# # # Close the fil
+
+# # r.close()
+# # # ls = content1
+# # # first = ls[0]
+# # # print(first)
+# # print(content)
+# # print(content1)
+
+
+
+
+# # print(content)
+
+
+# # r = open("file.txt" ,"r")
+# # # Read the content of the file
+# # content = r.read()
+# # r.close()
+# # print(content)
+
+# # w = open("file.txt" , "w")
+# # # Write some content to the file
+# # w.write("This is new file 1.\n")
+# # w.write("This is new file 1.\n")
+# # w.close
+
+# # r = open("file.txt" ,"r")
+# # # Read the content of the file
+# # # r.seek(0)
+# # print(r.read())
+# # r.close()
+# # # print(content)
+
+# # w= open("file2.txt" , "w")
+# # # Write some content to the file
+# # w.write("This is new file 2.\n")
+# # w.write("This is new file 3.\n")
+
+# # w.close()
+
+# # r = open("file2.txt" , "r")
+# # # Read the content of the file
+# # # r.seek(1)
+# # content = r.readline(10)
+# # r.close()
+# # print(content)  # prints: Hello, World!
+
+
+# # a = open("file.txt" , "a+")
+# # # Write some content to the file
+# # # a.seek(0)
+# # # a.write("uzair")
+# # a.seek(0)
+# # con = a.read()
+# # a.close()
+# # print(con)
+# # r = open("file.txt" , "r")
+# # # Read the content of the file
+# # content = r.read()
+# # r.close()
+# # print(content)
+
+# # r= open("file.txt" , "")
+# # with open("file4.txt" , "r") as w:
+# #     w.write("This is new file 2.\n")
+# #     w.write("This is new file 3.\n")
+# #     w.seek(0)
+# #     content = w.read()
+# # print(content)  
+
+# # with open("file.bin" ,"wb+") as rb:
+# #     rb.write(b"uzair")
+# #     rb.seek(0)
+# #     content = rb.read()
+# #     bn = int(content , 2 )
+# # print(content)   
+# # print(bn)
+
+# # with open("file.bin", "wb+") as rb:
+# #     rb.write(b"uzair")  # Write byte string "uzair" to the file
+# #     rb.seek(0)  # Move the pointer back to the start of the file
+# #     content = rb.read()  # Read the content from the file
+
+# # # Convert each byte to binary
+# # binary_representation = ''.join(format(byte, '08b') for byte in content)
+
+# # # print("Content as text:", content.decode())  # Decoding to show the text representation
+# # # print("Content in binary:", binary_representation)  
+
+# # # binary_string = "0111010101111010011000010110100101110010"
+
+# # # # Split the binary string into chunks of 8 bits
+# # # binary_values = [binary_string[i:i+8] for i in range(0, len(binary_string), 8)]
+
+# # # # Convert each binary value to its corresponding ASCII character
+# # # ascii_string = ''.join([chr(int(bv, 2)) for bv in binary_values])
+
+# # # print(ascii_string)
+
+
+# # # # f = open("file.txt", "w")
+
+# # # # f.write("Hello, World!\n")
+# # # # f.write("This is a new line.\n")
+# # # # f.close()
+
+# # # f = open("file.txt", "a")
+
+# # # f.write("This is another new line.\n")
+
+# # # f.close()
+
+# # # f = open("file.txt", "r")
+
+# # # content = f.read()
+
+
+
+# # # print(content)
+
+# w = open("file.txt", "w")
+
+# w.write("This is new data")
 
 # w.close()
 
-# r = open("file2.txt" , "r")
-# # Read the content of the file
-# # r.seek(1)
-# content = r.readline(10)
-# r.close()
-# print(content)  # prints: Hello, World!
-
-
-# a = open("file.txt" , "a+")
-# # Write some content to the file
-# # a.seek(0)
-# # a.write("uzair")
-# a.seek(0)
-# con = a.read()
-# a.close()
-# print(con)
-# r = open("file.txt" , "r")
-# # Read the content of the file
+# r = open("file.txt", "r")
 # content = r.read()
 # r.close()
 # print(content)
 
-# r= open("file.txt" , "")
-# with open("file4.txt" , "r") as w:
-#     w.write("This is new file 2.\n")
-#     w.write("This is new file 3.\n")
-#     w.seek(0)
-#     content = w.read()
-# print(content)  
+# w = open("file5.txt", "w")
+# w.write("new file created ")
+# # w.close
 
-# with open("file.bin" ,"wb+") as rb:
-#     rb.write(b"uzair")
-#     rb.seek(0)
-#     content = rb.read()
-#     bn = int(content , 2 )
-# print(content)   
-# print(bn)
+# # # a = open("file.txt", "a")
+# # # a.write("\nThis is second data")
 
-with open("file.bin", "wb+") as rb:
-    rb.write(b"uzair")  # Write byte string "uzair" to the file
-    rb.seek(0)  # Move the pointer back to the start of the file
-    content = rb.read()  # Read the content from the file
+# # # a.close()
 
-# Convert each byte to binary
-binary_representation = ''.join(format(byte, '08b') for byte in content)
+# # r= open("file3.txt", "r+")
+# # r.write("This written using r+")
+# # r.seek(2)
+# # content = r.read()
+# # # print(content)
+# # print(content)
+# # r.close()
 
-print("Content as text:", content.decode())  # Decoding to show the text representation
-print("Content in binary:", binary_representation)  
 
-binary_string = "0111010101111010011000010110100101110010"
 
-# Split the binary string into chunks of 8 bits
-binary_values = [binary_string[i:i+8] for i in range(0, len(binary_string), 8)]
+# # print(content)
 
-# Convert each binary value to its corresponding ASCII character
-ascii_string = ''.join([chr(int(bv, 2)) for bv in binary_values])
+# # r = open("file.txt" ,"r" )
 
-print(ascii_string)
+# # # Read the content of the file
+# # content = r.read()
+
+# # r.close()
+# with open("file4.txt", "w+") as r:
+#     r.write("\nuzair")
+#     r.seek(0)
+#     content = r.read()
+#     print(content)  
+
+
+# # r = open("file.txt" ,"w" )
+
+# # # Read the content of the file
+
+# # r.write("\nuzaiir")
+
+# # r.close()
+
+# # g = open("file.txt", "r")
+
+# # # Read the content of the file
+
+# # content = g.read()
+
+# # g.close()
+
+# # print(content)

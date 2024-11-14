@@ -85,3 +85,98 @@
 # value = list1.pop()
 # print(value)
 # print(list1)
+
+
+# li = [1,2,3,"ali","rafay",5.5,True]
+# # # length = len(li)
+# print(li[-1])
+
+# # print(length)
+
+# li2=li[1:5]
+# print(li)
+# li2.pop()
+# print(li2)
+
+li = [1,2,6,3,1]
+# li2 =["a","b","c"]
+
+# max = max(li)
+# min = min(li)
+# sum = sum(li)
+# print(max)
+# print(min)
+# print(sum)
+
+
+# index= li.index(6)
+# print(index)
+
+# # reverse
+# li.reverse()
+# print(li)
+
+# sort
+
+# li.sort(reverse=True)
+# print(li)
+
+
+# # copy
+# li2 = li.copy()
+# print(li2)
+
+
+# count
+# count = li.count(2)
+# print(count)
+# remove
+# ele = li.remove(1)
+# print(li)
+# print(ele)
+
+# pop()
+# remove_ele = li.pop(2)
+# print(remove_ele)
+# print(li)
+
+# clear()
+# li.clear()
+# print(li)
+# delete()
+# del li[4]
+# print(li)
+
+
+
+# # insert 
+# # li.insert(1,"ahmed")
+# # print(li)
+# # # append
+# # li.append(10)
+# # print(li)
+# # # extend
+# li.extend(li2)
+# print(li)
+
+li = []
+
+for x in range(1,4):
+    user_input = int(input(f"enter {x} number :"))
+    li.append(user_input)
+print(tuple(li))
+
+
+
+
+# tu = (1,2,3,4,4,"uzair" , 5.6)
+
+# count = tu.count(4)
+# print(count)
+
+
+
+
+# tu = (1,)
+
+# print(type(tu))

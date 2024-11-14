@@ -60,14 +60,15 @@ class Suv(Car):
     def sunroof(self):
         print("Available")
 
-# # Create an instance of the Hatchback class
-# car1 = Hatchback("Maruti", "Alto", "2022")
+# Create an instance of the Hatchback class
+car1 = Hatchback("Maruti", "Alto", "2022")
 
 # # Call methods
 # car1.printDetails()
-# car1.accelerate()
-# car1.sunroof()
+car1.accelerate()
+car1.sunroof()
+car1.printDetails()
 
-s1 = Suv("honda",2022,2000)
+# s1 = Suv("honda",2022,2000)
 
-s1.sunroof()
+# s1.sunroof()

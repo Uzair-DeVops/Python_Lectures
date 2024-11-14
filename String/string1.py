@@ -316,3 +316,50 @@
 
 
 
+# name = "uzair yasin ali ahmed rafay"
+# for x,y in enumerate(name):
+#     print(f"{x} : {y}")
+
+
+# # print(name[2])
+# print(name[0] , end="")
+# print(name[1] , end="")
+# print(name[2] , end="")
+# print(name[3] , end="")
+# print(name[4])
+
+
+# slicing 
+# print(name[:])
+# name [ start : end - 1 : step ]
+
+# stepping
+# name = "123456789"
+# name2 = "iuahixruiubak ugc"
+
+# print(name[])
+
+
+# intro =  "My name is uzair and my age is 20 and my qualification is Bs "
+# # for x,y in enumerate(intro):
+# #     print(f"{x} : {y}")
+
+
+# print(intro [11 : 16] , intro [31:33] , intro[58 : 60])
+
+# numbers = "123456789"
+# print(numbers[1::2])
+
+
+# name = "uzair"
+# print(name)
+# print(name.center(10, "."))
+# print(name2)
+
+# name = "mujtba"
+
+
+
+
+
+# name.upper()

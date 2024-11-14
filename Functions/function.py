@@ -188,4 +188,65 @@
 # print(li)
 # print(str2)
 # name[2] = "h"
-# print(name)
+# print(name
+
+
+# def even_odd(user_input):
+#     """This function is used to check whether a user input is even odd"""
+#     if user_input % 2 == 0:
+#         print("it even")
+#     else:
+#         print("it is odd")
+
+
+
+
+
+# user_input = int(input("write any number"))
+# even_odd(user_input)
+# print(even_odd.__doc__)
+
+
+# # A simple Python function
+# def fun():
+#     print("Welcome to GFG")
+
+# name = "uzair"
+
+# def add( x , y ,z , a = 3 , b = 2  ,h = 1):
+#      z  = x + y
+#      return z 
+
+# # num1 = int(input("number 1 :"))
+# # num2 = int(input("number 2 :"))
+
+
+# print(add(1))
+
+# def intro(name,age,qualification ,city ,grade,degree):
+#     print(f"My name is {name} and age is {age} and qualifier is {qualification} and my city is {city} and my grade is {grade} and my degree is {degree}")
+
+# intro(city = "Lahore", grade="A",name = "Uzair",age=20,qualification="Bs" ,degree = "bscs")
+
+# def add(**a):
+#     for x , y in a.items():
+#         print(f"{x} = {y}")
+# add(a = 1, b =  2, c = 4)
+
+
+
+
+# add = lambda x : x**2 
+# print(add(9))
+
+
+
+# # print(print.__doc__)
+
+# def add1(x):
+#     return x**2
+
+# add2 = lambda x : x**2
+
+# print(add1(9))
+# print(add2(9))

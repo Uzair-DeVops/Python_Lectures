@@ -133,3 +133,124 @@
 # value = {}
 # value["a"] = "uzair"
 # print(value)
+
+# li = [1,2,3,4,5,6,7,8,["a","b","c" , [12,13,14]]]
+
+# print(li[9])
+# for x ,y in enumerate(li):
+#     print(x,y)
+# # print(li[8])
+# li2=  li[8]
+# for x ,y in enumerate(li2):
+#     print(x,y)
+# # print(li2[1])
+
+# print(li[8][3][2])
+
+
+# dic = {1 : [1,2,3] , 2 : (1,2,3) , 3 : {4 : [5,6,7]} }
+# # print(dic["b"][1])
+
+# print(dic[3][4][2])
+
+
+# dic = {}
+# print(dic)
+# dic["a"] = int(input("write any num"))
+# dic["b"] = 2
+# dic["c"] = 3
+# dic["d"] = 4
+
+
+# print(dic)
+
+dic = dict([(1,"a"),(2,"b"),(3,"c")])
+# print(dic)
+
+# del  dic[1]
+
+# dic.clear()
+# print(dic)
+
+# seq = ('a', 'b', 'c')
+# print(dict.fromkeys(seq, None))
+
+# tu =  (1,2,3,4,5)
+# print(dict.fromkeys(tu,"Uzair"))
+
+# dic = dict([(1,"a"),(2,"b"),(3,"c")])
+# print(dic)
+
+# print(dic.get(4))
+
+# d = {1: '001', 2: '010', 3: '011'}
+# li = [1,2,3,4,5]
+
+# d.pop(1) # dic pop if you dont give any value it will cause error
+# # # if you give any value it will remove that element
+
+# d.popitem() # dic popitem() if you dont give any value it will remove last element
+# # # # if you give any value it will cause error
+
+
+# li.pop(0) # list pop if you dont give any value it will remove last element
+# # if you give any value it will remove that element
+
+# print(d)
+# print(li)
+
+# # print(d.get(4,"Not Found"))
+
+# d.popitem()
+# print(d)
+
+
+# d2 = {1: 'a', 2: "b" , 3 : "c" , 4 : "d"}
+
+# # print(d)
+# # d.update(d2)
+# # print(d)
+
+
+# print(d2.setdefault(5))
+
+# print(d2)
+
+
+# def add(**a):
+# #     print(a)
+
+
+# # add(a = 1 , b = 2 , c = 3 )
+
+# def add(*a):
+#     print(a)
+
+
+# add(1 , 2 ,3 )
+
+d2 = {1: 'a', 2: "b" , 3 : "c" , 4 : "d"}
+
+# # print(d2.keys())
+# # print(d2.values())
+
+# # print(d2.items())
+# # dic = dict([(1,"a"),(2,"b"),(3,"c")])
+
+# for x , y  in d2.items():
+#     print(x,y)
+# dic = {}
+# li = ["a" , "b" , "c" , "d"]
+
+
+# for x , y  in enumerate(li):
+#     dic[x]  = y
+
+# print(dic)
+
+
+# dic3 = {}
+
+# dic3[1] = "a"
+
+print(dic3)

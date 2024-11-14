@@ -71,12 +71,37 @@ class Person:
 
 
 
-i = True
-num = 0
-while(i):
-    print("uzair")
-    num += 1
-    if num == 4:
-       break
+# i = True
+# num = 0
+# while(i):
+#     print("uzair")
+#     num += 1
+#     if num == 4:
+#        break
+
+class Person:
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+    def __eat(self):
+        print("eating")
+    # def admin(self):
+    #     return self._name, self._age
+    def admin(self):
+        return self.__name, self.__age
 
 
+
+
+
+person = Person("uzair" , 20)
+# print(person.admin())
+print(person.__name)
+# print(person.__age)
+
+# person.__eat() 
+
+# print(person.name)
+# print(person.age)
+# print(person.admin())
+ 

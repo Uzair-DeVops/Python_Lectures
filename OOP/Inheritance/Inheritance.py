@@ -158,3 +158,103 @@
 # print(c1.my_name)
 # print(c1.my_grade)
 # c1.running()
+
+# class Father:
+#     def guide(self):
+#         print("this is guide method of Father class")
+#     def work(self):
+#         print("this is work method of Father class")
+
+# class Mother:
+#     def protect(self):
+#         print("this is protect method of Mother class")
+#     def cook(self):
+#         print("this is cook method of Mother class")
+
+
+
+
+        
+# class Children(Mother,Father):
+#     def play(self):
+#         print("this is play method of Children class")
+#     def eat(self):
+#         print("this is eat method of Children class")
+#     def sleep(self):
+#         print("this is sleep method of Children class")
+
+
+
+# c1  = Children()
+# print("\t\t\tthese are children class methods")
+# c1.eat()
+# c1.sleep()
+# c1.play()
+
+# print("\t\t\tthese are mother class methods")
+
+# c1.protect()
+# c1.cook()
+
+# print("\t\t\tthese are father class methods")
+# c1.work()
+# c1.guide()
+
+class Father:
+    def guide(self):
+        print("this is guide method of Father class")
+    def work(self):
+        print("this is work method of Father class")
+
+class Mother(Father):
+    def protect(self):
+        print("this is protect method of Mother class")
+    def cook(self):
+        print("this is cook method of Mother class")
+
+class Children1(Mother):
+    def play(self):
+        print("this is play method of Children class")
+    def eat(self):
+        print("this is eat method of Children class")
+    def sleep(self):
+        print("this is sleep method of Children class")
+
+class Children2(Mother,Father):
+    def play2(self):
+        print("this is play method of Children class")
+    def eat2(self):
+        print("this is eat method of Children class")
+    def sleep2(self):
+        print("this is sleep method of Children class")
+
+
+c1 = Children1()
+
+c2 = Children2()
+
+# c1  = Children()
+# print("\t\t\tthese are children class methods")
+# c1.eat()
+# c1.sleep()
+# c1.play()
+
+# print("\t\t\tthese are mother class methods")
+
+# c1.protect()
+# c1.cook()
+
+# print("\t\t\tthese are father class methods")
+# c1.work()
+# c1.guide()
+
+# m1  = Mother()
+
+# print("\t\t\tthese are mother class methods")
+
+# m1.protect()
+
+# m1.cook()
+
+# m1.guide()
+

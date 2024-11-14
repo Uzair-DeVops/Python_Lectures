@@ -96,7 +96,7 @@
 
 # If statement
 
-i = 10
+# i = 10
 
 # if (i < 15):
 #     print("true")
@@ -107,4 +107,73 @@ i = 10
 # else:
 #     print("P false")
 
-# print("I am Not in if")
+# print("I am Not in if")4
+
+
+# i = 10
+# if (i != 10):
+#     print("i is")
+# else:
+#     print("i is not")
+
+
+
+# print("outside if")
+
+
+
+# i = 25
+# if (i == 10):
+#     print("i is 10")
+# elif (i == 25):
+#     print("i is 15")
+# elif (i == 25):
+#     print("i is 20")
+# else:
+#     print("i is not present")
+# i = 10
+# if (i != 10):
+#     print("parent if ")
+# #     if (i > 5):
+# #         print("child if")
+# #     else:
+# #         print("child else")
+# # else:
+# #     print("parent else")
+
+
+# i = 10 
+# if(i == 10):
+#     print("parent if ")
+#     if(i < 5):
+#         print("child if ")
+#     else:
+#         print("child else")
+#         if(i >5):
+#             print("childesh if")
+# else:
+#     print("parent else")
+
+
+# grading
+
+# mark > 90   so A grade
+# mark > 80   so B grade
+# mark > 70   so B+ grade
+# mark > 60   so B- grade
+# mark > 50   so C grade
+# fail
+
+
+# marks = int(input("Enter your marks : "))
+# if marks > 90:
+#     print("Grade A")
+# elif marks > 80:
+#     print("Grade B")
+# elif marks  > 70:
+#     print("Grade C")
+# elif marks > 60:
+#     print("Grade D")
+# elif  marks > 50:
+#     print("Grade E")
+# else:

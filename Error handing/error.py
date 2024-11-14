@@ -149,4 +149,60 @@
 # else:
 #     print("No exception occurred")
 # finally:
-#     print("This will always run")  
+# #     print("This will always run")  
+
+# try:
+#     exec("x === 5")  # This has a syntax error (invalid '===' instead of '==')
+# except SyntaxError as e:
+#     print("Caught a SyntaxError:", e)
+
+# print("uzair")
+
+# def fun(a):
+#     if a < 4:
+#         b = a / (a - 3)
+# #     print("Value of b = ", b)
+
+# # # try:
+# # #     # fun(3)
+# # #     fun(5)
+# # # except ZeroDivisionError:
+# # #     print("ZeroDivisionError Occurred and Handled")
+
+
+
+# # x = 5
+# # y = "uzair"
+# # try :
+# #     print(x+y)
+# # # except TypeError as d:
+# # #     print(d)
+
+# # # print("uzair")
+
+# x = 5
+# y = 0
+# z= "uzair"
+# try :
+#     print(x+z)
+#     # print(x/y)
+# except Exception as e:
+#     print(e)
+# else:
+#     print("No exception occurred")
+# finally:
+#     print("This will always run")
+
+# # print("uzair")
+
+# try:
+#     exec(var = "uzar)
+# except SyntaxError as e:
+#     print(e)
+
+
+# print("uzair")
+
+user = input("Enter your age")
+if type(user)  == str :
+    raise ("this is not a valid input")
