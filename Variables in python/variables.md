@@ -124,4 +124,4 @@ print(x)  # Output: global
 - Variables store data and don’t require explicit types.
 - Follow naming conventions and avoid using reserved keywords.
 - Variables can store various data types, which can be converted as needed.
-- Use global and local scopes carefully to manage variable access and avoid conflicts.
+- Use global and local scopes carefully to manage variable access and avoid conflicts
